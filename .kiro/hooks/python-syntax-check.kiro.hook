@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "name": "Python Syntax Check",
+  "description": "Automatically runs Python syntax check when Python files are edited to catch syntax errors early",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "*.py"
+    ]
+  },
+  "then": {
+    "type": "runCommand",
+    "command": "python -m py_compile $file",
+    "timeout": 10
+  }
+}

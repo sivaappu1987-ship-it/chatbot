@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "c:\\Users\\SAMSUNG\\OneDrive\\Desktop\\Python\\kiro university\\project\\chatbot"],
+      "env": {},
+      "description": "Local file system operations for the SimpleGroqChat project"
+    }
+  }
+}
